@@ -48,6 +48,7 @@
   },
   "settings": {
     "import/resolver": {
+      
       "typescript": {
         "directory": "./tsconfig.json"
       },
