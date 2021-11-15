@@ -18,6 +18,7 @@ const App: React.FC<AppProps> = ({ myProp = 'foo' }) => {
     <div className={styles.app}>
       <img className={styles.logo} src={logo} alt="logo" />
       <h1>CRA Starter</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, porro!</p>
       <button type="button" onClick={onClick}>
         {myState}
       </button>
