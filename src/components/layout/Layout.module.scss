@@ -1,3 +1,5 @@
+@use 'src/styles/index' as *;
+
 .layout {
-  display: flex;
+  @include flexCenter;
 }
